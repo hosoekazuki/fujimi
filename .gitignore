@@ -1,0 +1,45 @@
+# --- Python (FastAPI) ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+.env
+.pytest_cache/
+.python-version
+
+# --- Node.js / Next.js ---
+node_modules/
+.next/
+out/
+build/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# --- Docker & Database ---
+# Docker Composeで作成されるDBのデータ保存用フォルダ
+# これを上げるとデータが巨大になり、かつ他人のPCで起動できなくなります
+db_data/
+.docker/
+
+# --- IDE / Editor ---
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+
+# --- OS ---
+.DS_Store
+.DS_Store?
+atime-cache
+gsls.dat
+Thumbs.db
+ehthumbs.db
